@@ -1,7 +1,3 @@
 # wikipedia-search-engine
 
-hello there, your task is to use debounce technique with the search input on the top of the page.
-
-fork the repository and start working on it.
-
-best of luck.
+ introduce a debounce function that wraps the generateResults function call within a timer. The debounce function clears any previous timers and sets a new timer based on the specified delay. This ensures that the generateResults function is only called once the user stops typing for the specified delay period (300 milliseconds in this example).
